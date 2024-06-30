@@ -1,8 +1,8 @@
-function checkPermission(role, admin, notAdmin){
+function checkPermission(role, Admin, notAdmin){
   if(role == `ADMIN`){
-    isAdminAction()
+    Admin()
   }else{
-    isNotAdminAction()
+    notAdmin()
   }
 }
   function isAdminAction(){
